@@ -47,14 +47,125 @@
   <ItemGroup>
     <Compile Include="Camadas\DAL\Conexao.cs" />
     <Compile Include="Camadas\Model\Cliente.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmatest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmatest.Designer.cs">
+      <DependentUpon>frmatest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcomanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcomanda.Designer.cs">
+      <DependentUpon>frmcomanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmconpro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmconpro.Designer.cs">
+      <DependentUpon>frmconpro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmconsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmconsulta.Designer.cs">
+      <DependentUpon>frmconsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcontpag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcontpag.Designer.cs">
+      <DependentUpon>frmcontpag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcontrec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcontrec.Designer.cs">
+      <DependentUpon>frmcontrec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnewcli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewcli.Designer.cs">
+      <DependentUpon>frmnewcli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnewfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewfor.Designer.cs">
+      <DependentUpon>frmnewfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnewpro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewpro.Designer.cs">
+      <DependentUpon>frmnewpro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmprofalt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmprofalt.Designer.cs">
+      <DependentUpon>frmprofalt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrel.Designer.cs">
+      <DependentUpon>frmrel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsobre.Designer.cs">
+      <DependentUpon>frmsobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmrinicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrinicio.Designer.cs">
+      <DependentUpon>fmrinicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fmrinicio.resx">
+      <DependentUpon>fmrinicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmatest.resx">
+      <DependentUpon>frmatest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcomanda.resx">
+      <DependentUpon>frmcomanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmconpro.resx">
+      <DependentUpon>frmconpro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmconsulta.resx">
+      <DependentUpon>frmconsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcontpag.resx">
+      <DependentUpon>frmcontpag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcontrec.resx">
+      <DependentUpon>frmcontrec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnewcli.resx">
+      <DependentUpon>frmnewcli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnewfor.resx">
+      <DependentUpon>frmnewfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnewpro.resx">
+      <DependentUpon>frmnewpro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmprofalt.resx">
+      <DependentUpon>frmprofalt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrel.resx">
+      <DependentUpon>frmrel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsobre.resx">
+      <DependentUpon>frmsobre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -115,5 +115,12 @@ namespace Panaro
             frmrelat.MdiParent = this;
             frmrelat.Show();
         }
+
+        private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmuser frmus = new frmuser();
+            frmus.MdiParent = this;
+            frmus.Show();
+        }
     }
 }

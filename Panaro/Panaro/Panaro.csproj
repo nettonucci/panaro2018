@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Camadas\DAL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />
     <Compile Include="Camadas\Model\Cliente.cs" />
     <Compile Include="frmatest.cs">
@@ -82,6 +83,12 @@
     </Compile>
     <Compile Include="frmcontrec.Designer.cs">
       <DependentUpon>frmcontrec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
     </Compile>
     <Compile Include="frmnewcli.cs">
       <SubType>Form</SubType>
@@ -125,6 +132,12 @@
     <Compile Include="fmrinicio.Designer.cs">
       <DependentUpon>fmrinicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmuser.Designer.cs">
+      <DependentUpon>frmuser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fmrinicio.resx">
@@ -148,6 +161,9 @@
     <EmbeddedResource Include="frmcontrec.resx">
       <DependentUpon>frmcontrec.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmnewcli.resx">
       <DependentUpon>frmnewcli.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmsobre.resx">
       <DependentUpon>frmsobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmuser.resx">
+      <DependentUpon>frmuser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

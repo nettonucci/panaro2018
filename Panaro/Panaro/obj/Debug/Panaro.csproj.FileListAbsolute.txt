@@ -22,3 +22,6 @@ C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmprofal
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmrel.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmuser.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmlogin.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\bin\Debug\Panaro.exe.config
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.exe
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb

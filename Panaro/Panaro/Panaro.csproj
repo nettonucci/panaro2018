@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="Camadas\DAL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />
+    <Compile Include="Camadas\DAL\Fornecedor.cs" />
     <Compile Include="Camadas\Model\Cliente.cs" />
+    <Compile Include="Camadas\Model\Fornecedor.cs" />
     <Compile Include="frmatest.cs">
       <SubType>Form</SubType>
     </Compile>

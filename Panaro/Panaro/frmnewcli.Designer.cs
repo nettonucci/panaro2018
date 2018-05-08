@@ -179,7 +179,7 @@
             // 
             // txtboxnum
             // 
-            this.txtboxnum.Location = new System.Drawing.Point(407, 74);
+            this.txtboxnum.Location = new System.Drawing.Point(382, 74);
             this.txtboxnum.Name = "txtboxnum";
             this.txtboxnum.Size = new System.Drawing.Size(100, 20);
             this.txtboxnum.TabIndex = 3;
@@ -189,9 +189,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(354, 77);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 13);
+            this.label7.Size = new System.Drawing.Size(22, 13);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Numero:";
+            this.label7.Text = "N°:";
             // 
             // pictureBox1
             // 

@@ -48,8 +48,10 @@
     <Compile Include="Camadas\DAL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />
     <Compile Include="Camadas\DAL\Fornecedor.cs" />
+    <Compile Include="Camadas\DAL\Tipos.cs" />
     <Compile Include="Camadas\Model\Cliente.cs" />
     <Compile Include="Camadas\Model\Fornecedor.cs" />
+    <Compile Include="Camadas\Model\Tipos.cs" />
     <Compile Include="frmatest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +112,12 @@
     <Compile Include="frmnewpro.Designer.cs">
       <DependentUpon>frmnewpro.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmnewtip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewtip.Designer.cs">
+      <DependentUpon>frmnewtip.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmprofalt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +147,26 @@
     </Compile>
     <Compile Include="frmuser.Designer.cs">
       <DependentUpon>frmuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panaroDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="panaroDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="panaroDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="panaroDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -175,6 +203,9 @@
     <EmbeddedResource Include="frmnewpro.resx">
       <DependentUpon>frmnewpro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmnewtip.resx">
+      <DependentUpon>frmnewtip.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmprofalt.resx">
       <DependentUpon>frmprofalt.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +227,50 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="panaroDataSet.xsc">
+      <DependentUpon>panaroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet.xss">
+      <DependentUpon>panaroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet1.xsc">
+      <DependentUpon>panaroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet1.xss">
+      <DependentUpon>panaroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet2.xsc">
+      <DependentUpon>panaroDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet2.xss">
+      <DependentUpon>panaroDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet3.xsc">
+      <DependentUpon>panaroDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet3.xss">
+      <DependentUpon>panaroDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

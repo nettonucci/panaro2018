@@ -30,7 +30,7 @@ namespace Panaro
         private void button2_Click(object sender, EventArgs e)
         {
             txtboxnome.Focus();
-            rdbtnbebidas.Select();
+            //rdbtnbebidas.Select();
             txtboxnome.Text = (" ");
             txtboxmarca.Text = (" ");
             txtboxendereco.Text = (" ");
@@ -43,39 +43,64 @@ namespace Panaro
             Camadas.Model.Fornecedor fornecedor = new Camadas.Model.Fornecedor();
             Camadas.DAL.Fornecedor dalFor = new Camadas.DAL.Fornecedor();
             txtboxnome.Focus();
-            rdbtnbebidas.Select();
+            //rdbtnbebidas.Select();
             fornecedor.nome = txtboxnome.Text;
             fornecedor.marca = txtboxmarca.Text;
             fornecedor.endereco = txtboxendereco.Text;
             fornecedor.numero = txtboxnumero.Text;
-            if (rdbtnbebidas.Checked)
-            {
-                fornecedor.produto = "bebidas";
-            }
-            else if (rdbtnespetinhos.Checked)
-            {
-                fornecedor.produto = "espetinhos";
-            }
-            else if (rdbtndoces.Checked)
-            {
-                fornecedor.produto = "doces";
-            }
-            else if (rdbtnoutros.Checked)
-            {
-                fornecedor.produto = "outros";
-            }
+            fornecedor.produto = cbboxtipos.Text;
             fornecedor.celular = txtboxcelular.Text;
 
             dalFor.Insert(fornecedor);
             MessageBox.Show("Fornecedor cadastrado com sucesso", "Cadastro de Fornecedor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             txtboxnome.Focus();
-            rdbtnbebidas.Select();
+            txtboxnome.Text = (" ");
+            txtboxmarca.Text = (" ");
+            txtboxendereco.Text = (" ");
+            txtboxnumero.Text = (" ");
+            txtboxcelular.Text = (" ");
+
+            //rdbtnbebidas.Select();
+            //if (rdbtnbebidas.Checked)
+            //{
+            //    fornecedor.produto = "bebidas";
+            //}
+            //else if (rdbtnespetinhos.Checked)
+            //{
+            //    fornecedor.produto = "espetinhos";
+            //}
+            //else if (rdbtndoces.Checked)
+            //{
+            //    fornecedor.produto = "doces";
+            //}
+            //else if (rdbtnoutros.Checked)
+            //{
+            //    fornecedor.produto = "outros";
+            //}
         }
 
         private void frmnewfor_Load(object sender, EventArgs e)
         {
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet2.tipos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tiposTableAdapter2.Fill(this.panaroDataSet2.tipos);
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet1.tipos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tiposTableAdapter1.Fill(this.panaroDataSet1.tipos);
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet.tipos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tiposTableAdapter.Fill(this.panaroDataSet.tipos);
             txtboxnome.Focus();
-            rdbtnbebidas.Select();
+            //rdbtnbebidas.Select();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            frmnewtip frmtip = new frmnewtip();
+            frmtip.Show();
+        }
+
+        private void cbboxtipos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

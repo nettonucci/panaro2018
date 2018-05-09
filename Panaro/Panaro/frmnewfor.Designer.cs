@@ -34,7 +34,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtboxnome = new System.Windows.Forms.TextBox();
@@ -49,11 +48,25 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.rdbtnbebidas = new System.Windows.Forms.RadioButton();
-            this.rdbtnespetinhos = new System.Windows.Forms.RadioButton();
-            this.rdbtndoces = new System.Windows.Forms.RadioButton();
-            this.rdbtnoutros = new System.Windows.Forms.RadioButton();
+            this.button4 = new System.Windows.Forms.Button();
+            this.tiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panaroDataSet = new Panaro.panaroDataSet();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tiposTableAdapter = new Panaro.panaroDataSetTableAdapters.tiposTableAdapter();
+            this.panaroDataSet1 = new Panaro.panaroDataSet1();
+            this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tiposTableAdapter1 = new Panaro.panaroDataSet1TableAdapters.tiposTableAdapter();
+            this.cbboxtipos = new System.Windows.Forms.ComboBox();
+            this.panaroDataSet2 = new Panaro.panaroDataSet2();
+            this.tiposBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.tiposTableAdapter2 = new Panaro.panaroDataSet2TableAdapters.tiposTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -93,19 +106,10 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Endereço:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 128);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Produtos:";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 152);
+            this.label6.Location = new System.Drawing.Point(21, 156);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 13);
             this.label6.TabIndex = 5;
@@ -116,7 +120,7 @@
             this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(69, 22);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(78, 20);
+            this.textBox1.Size = new System.Drawing.Size(30, 20);
             this.textBox1.TabIndex = 6;
             // 
             // txtboxnome
@@ -142,7 +146,7 @@
             // 
             // txtboxcelular
             // 
-            this.txtboxcelular.Location = new System.Drawing.Point(69, 149);
+            this.txtboxcelular.Location = new System.Drawing.Point(69, 153);
             this.txtboxcelular.Name = "txtboxcelular";
             this.txtboxcelular.Size = new System.Drawing.Size(211, 20);
             this.txtboxcelular.TabIndex = 9;
@@ -214,49 +218,77 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // rdbtnbebidas
+            // button4
             // 
-            this.rdbtnbebidas.AutoSize = true;
-            this.rdbtnbebidas.Location = new System.Drawing.Point(69, 126);
-            this.rdbtnbebidas.Name = "rdbtnbebidas";
-            this.rdbtnbebidas.Size = new System.Drawing.Size(63, 17);
-            this.rdbtnbebidas.TabIndex = 5;
-            this.rdbtnbebidas.TabStop = true;
-            this.rdbtnbebidas.Text = "Bebidas";
-            this.rdbtnbebidas.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(196, 124);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "Novo Tipo";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // rdbtnespetinhos
+            // tiposBindingSource
             // 
-            this.rdbtnespetinhos.AutoSize = true;
-            this.rdbtnespetinhos.Location = new System.Drawing.Point(136, 126);
-            this.rdbtnespetinhos.Name = "rdbtnespetinhos";
-            this.rdbtnespetinhos.Size = new System.Drawing.Size(77, 17);
-            this.rdbtnespetinhos.TabIndex = 6;
-            this.rdbtnespetinhos.TabStop = true;
-            this.rdbtnespetinhos.Text = "Espetinhos";
-            this.rdbtnespetinhos.UseVisualStyleBackColor = true;
+            this.tiposBindingSource.DataMember = "tipos";
+            this.tiposBindingSource.DataSource = this.panaroDataSet;
             // 
-            // rdbtndoces
+            // panaroDataSet
             // 
-            this.rdbtndoces.AutoSize = true;
-            this.rdbtndoces.Location = new System.Drawing.Point(219, 126);
-            this.rdbtndoces.Name = "rdbtndoces";
-            this.rdbtndoces.Size = new System.Drawing.Size(56, 17);
-            this.rdbtndoces.TabIndex = 7;
-            this.rdbtndoces.TabStop = true;
-            this.rdbtndoces.Text = "Doces";
-            this.rdbtndoces.UseVisualStyleBackColor = true;
+            this.panaroDataSet.DataSetName = "panaroDataSet";
+            this.panaroDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // rdbtnoutros
+            // label8
             // 
-            this.rdbtnoutros.AutoSize = true;
-            this.rdbtnoutros.Location = new System.Drawing.Point(281, 126);
-            this.rdbtnoutros.Name = "rdbtnoutros";
-            this.rdbtnoutros.Size = new System.Drawing.Size(56, 17);
-            this.rdbtnoutros.TabIndex = 8;
-            this.rdbtnoutros.TabStop = true;
-            this.rdbtnoutros.Text = "Outros";
-            this.rdbtnoutros.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(32, 129);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Tipo:";
+            // 
+            // tiposTableAdapter
+            // 
+            this.tiposTableAdapter.ClearBeforeFill = true;
+            // 
+            // panaroDataSet1
+            // 
+            this.panaroDataSet1.DataSetName = "panaroDataSet1";
+            this.panaroDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tiposBindingSource1
+            // 
+            this.tiposBindingSource1.DataMember = "tipos";
+            this.tiposBindingSource1.DataSource = this.panaroDataSet1;
+            // 
+            // tiposTableAdapter1
+            // 
+            this.tiposTableAdapter1.ClearBeforeFill = true;
+            // 
+            // cbboxtipos
+            // 
+            this.cbboxtipos.DataSource = this.tiposBindingSource2;
+            this.cbboxtipos.DisplayMember = "descricao";
+            this.cbboxtipos.FormattingEnabled = true;
+            this.cbboxtipos.Location = new System.Drawing.Point(69, 126);
+            this.cbboxtipos.Name = "cbboxtipos";
+            this.cbboxtipos.Size = new System.Drawing.Size(121, 21);
+            this.cbboxtipos.TabIndex = 22;
+            this.cbboxtipos.SelectedIndexChanged += new System.EventHandler(this.cbboxtipos_SelectedIndexChanged);
+            // 
+            // panaroDataSet2
+            // 
+            this.panaroDataSet2.DataSetName = "panaroDataSet2";
+            this.panaroDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tiposBindingSource2
+            // 
+            this.tiposBindingSource2.DataMember = "tipos";
+            this.tiposBindingSource2.DataSource = this.panaroDataSet2;
+            // 
+            // tiposTableAdapter2
+            // 
+            this.tiposTableAdapter2.ClearBeforeFill = true;
             // 
             // frmnewfor
             // 
@@ -264,10 +296,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 233);
             this.ControlBox = false;
-            this.Controls.Add(this.rdbtnoutros);
-            this.Controls.Add(this.rdbtndoces);
-            this.Controls.Add(this.rdbtnespetinhos);
-            this.Controls.Add(this.rdbtnbebidas);
+            this.Controls.Add(this.cbboxtipos);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -280,7 +311,6 @@
             this.Controls.Add(this.txtboxnome);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -290,6 +320,12 @@
             this.Text = "Cadastro de fornecedor";
             this.Load += new System.EventHandler(this.frmnewfor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,7 +337,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox txtboxnome;
@@ -316,9 +351,17 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.RadioButton rdbtnbebidas;
-        private System.Windows.Forms.RadioButton rdbtnespetinhos;
-        private System.Windows.Forms.RadioButton rdbtndoces;
-        private System.Windows.Forms.RadioButton rdbtnoutros;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label8;
+        private panaroDataSet panaroDataSet;
+        private System.Windows.Forms.BindingSource tiposBindingSource;
+        private panaroDataSetTableAdapters.tiposTableAdapter tiposTableAdapter;
+        private panaroDataSet1 panaroDataSet1;
+        private System.Windows.Forms.BindingSource tiposBindingSource1;
+        private panaroDataSet1TableAdapters.tiposTableAdapter tiposTableAdapter1;
+        private System.Windows.Forms.ComboBox cbboxtipos;
+        private panaroDataSet2 panaroDataSet2;
+        private System.Windows.Forms.BindingSource tiposBindingSource2;
+        private panaroDataSet2TableAdapters.tiposTableAdapter tiposTableAdapter2;
     }
 }

@@ -46,3 +46,4 @@ C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro20
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.Properties.Resources.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.GenerateResource.Cache
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources

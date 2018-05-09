@@ -29,6 +29,7 @@ namespace Panaro
 
         private void button1_Click(object sender, EventArgs e)
         {
+            txtboxnome.Focus();
             Camadas.Model.Cliente cliente = new Camadas.Model.Cliente();
             Camadas.DAL.Cliente dalCli = new Camadas.DAL.Cliente();
             cliente.nome = txtboxnome.Text;
@@ -40,6 +41,7 @@ namespace Panaro
 
             dalCli.Insert(cliente);
             MessageBox.Show("Cliente cadastrado com sucesso", "Cadastro de cliente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            txtboxnome.Focus();
             txtboxnome.Text = (" ");
             txtboxend.Text = (" ");
             txtboxnum.Text = (" ");
@@ -56,6 +58,11 @@ namespace Panaro
             txtboxbairro.Text = (" ");
             txtboxtel.Text = (" ");
             txtboxcel.Text = (" ");
+        }
+
+        private void frmnewcli_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

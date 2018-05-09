@@ -30,6 +30,7 @@ namespace Panaro.Camadas.DAL
                     fornecedor.marca = reader["marca"].ToString();
                     fornecedor.endereco = reader["endereco"].ToString();
                     fornecedor.numero = reader["numero"].ToString();
+                    fornecedor.produto = reader["produto"].ToString();
                     fornecedor.celular = reader["celular"].ToString();
                     lstFornecedor.Add(fornecedor);
                 }

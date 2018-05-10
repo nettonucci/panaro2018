@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -31,9 +32,14 @@ namespace Panaro
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Logado com sucesso", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            fmrinicio frmini = new fmrinicio();
-            frmini.Show();
-            this.Close();
+            this.Hide();
+            Form f = new fmrinicio();
+            f.Closed += (s, args) => this.Close();
+            f.Show();
+
+
+
+
         }
     }
 }

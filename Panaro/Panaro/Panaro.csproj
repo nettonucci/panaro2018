@@ -168,6 +168,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>panaroDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="panaroDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="panaroDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>panaroDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fmrinicio.resx">
@@ -270,6 +280,28 @@
     </None>
     <None Include="panaroDataSet3.xss">
       <DependentUpon>panaroDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet4.xsc">
+      <DependentUpon>panaroDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet4.xss">
+      <DependentUpon>panaroDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet5.xsc">
+      <DependentUpon>panaroDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="panaroDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>panaroDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="panaroDataSet5.xss">
+      <DependentUpon>panaroDataSet5.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

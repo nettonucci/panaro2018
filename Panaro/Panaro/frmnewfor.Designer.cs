@@ -56,10 +56,10 @@
             this.panaroDataSet1 = new Panaro.panaroDataSet1();
             this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter1 = new Panaro.panaroDataSet1TableAdapters.tiposTableAdapter();
-            this.cbboxtipos = new System.Windows.Forms.ComboBox();
             this.tiposBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.panaroDataSet2 = new Panaro.panaroDataSet2();
             this.tiposTableAdapter2 = new Panaro.panaroDataSet2TableAdapters.tiposTableAdapter();
+            this.cbboxtipos = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).BeginInit();
@@ -265,18 +265,6 @@
             // 
             this.tiposTableAdapter1.ClearBeforeFill = true;
             // 
-            // cbboxtipos
-            // 
-            this.cbboxtipos.DataSource = this.tiposBindingSource2;
-            this.cbboxtipos.DisplayMember = "descricao";
-            this.cbboxtipos.FormattingEnabled = true;
-            this.cbboxtipos.Location = new System.Drawing.Point(69, 126);
-            this.cbboxtipos.Name = "cbboxtipos";
-            this.cbboxtipos.Size = new System.Drawing.Size(121, 21);
-            this.cbboxtipos.TabIndex = 22;
-            this.cbboxtipos.ValueMember = "id";
-            this.cbboxtipos.SelectedIndexChanged += new System.EventHandler(this.cbboxtipos_SelectedIndexChanged);
-            // 
             // tiposBindingSource2
             // 
             this.tiposBindingSource2.DataMember = "tipos";
@@ -290,6 +278,16 @@
             // tiposTableAdapter2
             // 
             this.tiposTableAdapter2.ClearBeforeFill = true;
+            // 
+            // cbboxtipos
+            // 
+            this.cbboxtipos.DataSource = this.tiposBindingSource2;
+            this.cbboxtipos.DisplayMember = "descricao";
+            this.cbboxtipos.FormattingEnabled = true;
+            this.cbboxtipos.Location = new System.Drawing.Point(69, 126);
+            this.cbboxtipos.Name = "cbboxtipos";
+            this.cbboxtipos.Size = new System.Drawing.Size(121, 21);
+            this.cbboxtipos.TabIndex = 22;
             // 
             // frmnewfor
             // 
@@ -360,9 +358,9 @@
         private panaroDataSet1 panaroDataSet1;
         private System.Windows.Forms.BindingSource tiposBindingSource1;
         private panaroDataSet1TableAdapters.tiposTableAdapter tiposTableAdapter1;
-        private System.Windows.Forms.ComboBox cbboxtipos;
         private panaroDataSet2 panaroDataSet2;
         private System.Windows.Forms.BindingSource tiposBindingSource2;
         private panaroDataSet2TableAdapters.tiposTableAdapter tiposTableAdapter2;
+        private System.Windows.Forms.ComboBox cbboxtipos;
     }
 }

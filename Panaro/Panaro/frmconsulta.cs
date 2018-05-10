@@ -21,5 +21,24 @@ namespace Panaro
         {
 
         }
+
+        private void frmconsulta_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet5.tipos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tiposTableAdapter1.Fill(this.panaroDataSet5.tipos);
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet4.tipos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tiposTableAdapter.Fill(this.panaroDataSet4.tipos);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

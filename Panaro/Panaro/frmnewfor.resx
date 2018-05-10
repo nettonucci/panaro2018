@@ -127,7 +127,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKUAAAClCAYAAAA9Kz3aAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAHoFJREFUeF7tnQl4U8Xax1NUBNmkTdKyKUJrWfwAKbSF0kLSUpYWEFzu9V4UoUlb
+        vAAADrwBlbxySQAAHoFJREFUeF7tnQl4U8Xax1NUBNmkTdKyKUJrWfwAKbSF0kLSUpYWEFzu9V4UoUlb
         NtlVZHNFPwSE0hUoW6EIimyFsnZjFVHBDYEreq/ez+V6AZWd5p3vfeeclDQ9bZM0adJ2/s/zf5om58zM
         O/PLzHnPSU5UQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkI1QxGrfg/Qb7j6WL/1f47vt/7qeH3WH8Oj
         NvweIL8sJFR9it4E3vqsq8v1669djHofWNT7TDYweq5f1p/Lo1dc9pY3FxJyvXTr/3x1wA7GIjfeZLr1
@@ -278,14 +278,14 @@
   <metadata name="tiposBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>818, 17</value>
   </metadata>
-  <metadata name="panaroDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>679, 17</value>
-  </metadata>
   <metadata name="tiposTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
   <metadata name="tiposBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>314, 56</value>
+  </metadata>
+  <metadata name="panaroDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>175, 56</value>
   </metadata>
   <metadata name="panaroDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>175, 56</value>

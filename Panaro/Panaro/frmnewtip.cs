@@ -20,6 +20,8 @@ namespace Panaro
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            frmnewfor frmfor = new frmnewfor();
+            frmfor.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,6 +34,18 @@ namespace Panaro
             MessageBox.Show("Tipo cadastrado com sucesso", "Cadastro de Tipos", MessageBoxButtons.OK, MessageBoxIcon.Information);
             txtboxtipo.Focus();
             txtboxtipo.Text = (" ");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            frmnewpro frmpro = new frmnewpro();
+            frmpro.Show();
         }
     }
 }

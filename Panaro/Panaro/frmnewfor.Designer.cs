@@ -57,16 +57,16 @@
             this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter1 = new Panaro.panaroDataSet1TableAdapters.tiposTableAdapter();
             this.cbboxtipos = new System.Windows.Forms.ComboBox();
-            this.panaroDataSet2 = new Panaro.panaroDataSet2();
             this.tiposBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.panaroDataSet2 = new Panaro.panaroDataSet2();
             this.tiposTableAdapter2 = new Panaro.panaroDataSet2TableAdapters.tiposTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -274,17 +274,18 @@
             this.cbboxtipos.Name = "cbboxtipos";
             this.cbboxtipos.Size = new System.Drawing.Size(121, 21);
             this.cbboxtipos.TabIndex = 22;
+            this.cbboxtipos.ValueMember = "id";
             this.cbboxtipos.SelectedIndexChanged += new System.EventHandler(this.cbboxtipos_SelectedIndexChanged);
-            // 
-            // panaroDataSet2
-            // 
-            this.panaroDataSet2.DataSetName = "panaroDataSet2";
-            this.panaroDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tiposBindingSource2
             // 
             this.tiposBindingSource2.DataMember = "tipos";
             this.tiposBindingSource2.DataSource = this.panaroDataSet2;
+            // 
+            // panaroDataSet2
+            // 
+            this.panaroDataSet2.DataSetName = "panaroDataSet2";
+            this.panaroDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tiposTableAdapter2
             // 
@@ -324,8 +325,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

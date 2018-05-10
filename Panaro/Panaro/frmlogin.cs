@@ -31,11 +31,11 @@ namespace Panaro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Logado com sucesso", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Hide();
-            Form f = new fmrinicio();
-            f.Closed += (s, args) => this.Close();
-            f.Show();
+           MessageBox.Show("Logado com sucesso", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           this.Hide();
+           Form f = new fmrinicio();
+           f.Closed += (s, args) => this.Close();
+           f.Show();
 
 
 

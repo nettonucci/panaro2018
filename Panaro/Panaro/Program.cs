@@ -16,7 +16,7 @@ namespace Panaro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmrinicio());
+            Application.Run(new frmlogin());
         }
     }
 }

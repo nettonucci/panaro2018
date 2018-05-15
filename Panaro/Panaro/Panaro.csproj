@@ -142,11 +142,11 @@
     <Compile Include="fmrinicio.Designer.cs">
       <DependentUpon>fmrinicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmuser.cs">
+    <Compile Include="frmnewuser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmuser.Designer.cs">
-      <DependentUpon>frmuser.cs</DependentUpon>
+    <Compile Include="frmnewuser.Designer.cs">
+      <DependentUpon>frmnewuser.cs</DependentUpon>
     </Compile>
     <Compile Include="panaroDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -225,8 +225,8 @@
     <EmbeddedResource Include="frmsobre.resx">
       <DependentUpon>frmsobre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmuser.resx">
-      <DependentUpon>frmuser.cs</DependentUpon>
+    <EmbeddedResource Include="frmnewuser.resx">
+      <DependentUpon>frmnewuser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

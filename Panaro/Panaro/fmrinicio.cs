@@ -118,7 +118,7 @@ namespace Panaro
 
         private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmuser frmus = new frmuser();
+            frmnewuser frmus = new frmnewuser();
             frmus.MdiParent = this;
             frmus.Show();
         }

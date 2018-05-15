@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Panaro
 {
-    public partial class frmuser : Form
+    public partial class frmnewuser : Form
     {
-        public frmuser()
+        public frmnewuser()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

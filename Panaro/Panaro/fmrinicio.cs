@@ -50,7 +50,10 @@ namespace Panaro
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (DialogResult.Yes == MessageBox.Show("Tem certeza que deseja fechar o programa?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+            {
+                this.Close();
+            }
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,9 +114,6 @@ namespace Panaro
 
         private void relatoriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmrel frmrelat = new frmrel();
-            frmrelat.MdiParent = this;
-            frmrelat.Show();
         }
 
         private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)

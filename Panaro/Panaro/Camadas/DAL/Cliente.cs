@@ -47,6 +47,78 @@ namespace Panaro.Camadas.DAL
             return lstCliente;
         }
 
+        public List<Model.Cliente> SelectById(int id)
+        {
+            List<Model.Cliente> lstCliente = new List<Model.Cliente>();
+            SqlConnection conexao = new SqlConnection(strcon);
+            string sql = "select * from clientes where id=@id;";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@id", id);
+            conexao.Open();
+            try
+            {
+                SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    Model.Cliente cliente = new Model.Cliente();
+                    cliente.id = Convert.ToInt32(reader["id"]);
+                    cliente.nome = reader["nome"].ToString();
+                    cliente.endereco = reader["endereco"].ToString();
+                    cliente.numero = reader["numero"].ToString();
+                    cliente.bairro = reader["bairro"].ToString();
+                    cliente.telefone = reader["telefone"].ToString();
+                    cliente.celular = reader["celular"].ToString();
+                    lstCliente.Add(cliente);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Erro - Clientes nao localizados");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return lstCliente;
+        }
+
+        public List<Model.Cliente> SelectByNome(string nome)
+        {
+            List<Model.Cliente> lstCliente = new List<Model.Cliente>();
+            SqlConnection conexao = new SqlConnection(strcon);
+            string sql = "select * from clientes where (nome like @nome);";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@nome", nome.Trim() + "%");
+            conexao.Open();
+            try
+            {
+                SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    Model.Cliente cliente = new Model.Cliente();
+                    cliente.id = Convert.ToInt32(reader["id"]);
+                    cliente.nome = reader["nome"].ToString();
+                    cliente.endereco = reader["endereco"].ToString();
+                    cliente.numero = reader["numero"].ToString();
+                    cliente.bairro = reader["bairro"].ToString();
+                    cliente.telefone = reader["telefone"].ToString();
+                    cliente.celular = reader["celular"].ToString();
+                    lstCliente.Add(cliente);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Erro - Clientes nao localizados");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return lstCliente;
+        }
+
         public void Insert(Model.Cliente cliente)
         {
             SqlConnection conexao = new SqlConnection(strcon);

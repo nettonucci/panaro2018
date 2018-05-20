@@ -122,5 +122,12 @@ namespace Panaro
             frmus.MdiParent = this;
             frmus.Show();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmrelcli frmrelc = new frmrelcli();
+            frmrelc.MdiParent = this;
+            frmrelc.Show();
+        }
     }
 }

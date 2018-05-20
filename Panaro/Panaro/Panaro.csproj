@@ -132,6 +132,12 @@
     <Compile Include="frmrel.Designer.cs">
       <DependentUpon>frmrel.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmrelcli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrelcli.Designer.cs">
+      <DependentUpon>frmrelcli.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmsobre.cs">
       <SubType>Form</SubType>
     </Compile>

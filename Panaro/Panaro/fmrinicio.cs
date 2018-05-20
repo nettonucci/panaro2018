@@ -43,7 +43,7 @@ namespace Panaro
 
         private void addcmd_Click(object sender, EventArgs e)
         {
-            frmcomanda frmcom = new frmcomanda();
+            frmnewcom frmcom = new frmnewcom();
             frmcom.MdiParent = this;
             frmcom.Show();
         }

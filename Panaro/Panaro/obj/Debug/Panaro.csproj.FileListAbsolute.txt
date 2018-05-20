@@ -9,7 +9,6 @@ C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.exe
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.fmrinicio.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmsobre.resources
-C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmcomanda.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconsulta.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewcli.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewfor.resources
@@ -47,3 +46,4 @@ C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro20
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018-master\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources
 C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewuser.resources
+C:\Users\Netto Nucci\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewcom.resources

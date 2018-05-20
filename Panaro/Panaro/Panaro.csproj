@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Camadas\BLL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />
     <Compile Include="Camadas\DAL\Fornecedor.cs" />
@@ -60,11 +61,11 @@
     <Compile Include="frmatest.Designer.cs">
       <DependentUpon>frmatest.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmcomanda.cs">
+    <Compile Include="frmnewcom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmcomanda.Designer.cs">
-      <DependentUpon>frmcomanda.cs</DependentUpon>
+    <Compile Include="frmnewcom.Designer.cs">
+      <DependentUpon>frmnewcom.cs</DependentUpon>
     </Compile>
     <Compile Include="frmconpro.cs">
       <SubType>Form</SubType>
@@ -194,8 +195,8 @@
     <EmbeddedResource Include="frmatest.resx">
       <DependentUpon>frmatest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmcomanda.resx">
-      <DependentUpon>frmcomanda.cs</DependentUpon>
+    <EmbeddedResource Include="frmnewcom.resx">
+      <DependentUpon>frmnewcom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmconpro.resx">
       <DependentUpon>frmconpro.cs</DependentUpon>
@@ -324,8 +325,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Camadas\BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

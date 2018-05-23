@@ -172,6 +172,7 @@
             this.dgvedcli.Name = "dgvedcli";
             this.dgvedcli.Size = new System.Drawing.Size(747, 194);
             this.dgvedcli.TabIndex = 31;
+            this.dgvedcli.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvedcli_CellContentClick);
             this.dgvedcli.DoubleClick += new System.EventHandler(this.dgvedcli_DoubleClick);
             // 
             // button1

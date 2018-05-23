@@ -16,7 +16,7 @@ namespace Panaro.Camadas.DAL
         {
             List<Model.Comanda> lstComanda = new List<Model.Comanda>();
             SqlConnection conexao = new SqlConnection(strcon);
-            string sql = "select * from camadas;";
+            string sql = "select * from comandas where status=1;";
             SqlCommand cmd = new SqlCommand(sql, conexao);
             conexao.Open();
             try
@@ -27,7 +27,7 @@ namespace Panaro.Camadas.DAL
                     Model.Comanda comanda = new Model.Comanda();
                     comanda.id = Convert.ToInt32(reader["id"]);
                     comanda.cliente = reader["cliente"].ToString();
-                    comanda.status = reader["status"].ToString();
+                    comanda.status = "Aberta";
                     lstComanda.Add(comanda);
                 }
             }
@@ -42,6 +42,8 @@ namespace Panaro.Camadas.DAL
 
             return lstComanda;
         }
+
+        
 
         public void Insert(Model.Comanda comanda)
         {

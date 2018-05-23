@@ -80,7 +80,6 @@ C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.fmrinicio.resou
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmatest.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewcom.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconpro.resources
-C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconsulta.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmcontpag.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmcontrec.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmlogin.resources
@@ -98,4 +97,5 @@ C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.CoreComp
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.exe
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcli.resources
-C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.teste.resources
+C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcom.resources
+C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconcom.resources

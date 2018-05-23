@@ -212,11 +212,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="teste.cs">
+    <Compile Include="frmconcom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="teste.Designer.cs">
-      <DependentUpon>teste.cs</DependentUpon>
+    <Compile Include="frmconcom.Designer.cs">
+      <DependentUpon>frmconcom.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="fmrinicio.resx">
       <DependentUpon>fmrinicio.cs</DependentUpon>
@@ -278,8 +278,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="teste.resx">
-      <DependentUpon>teste.cs</DependentUpon>
+    <EmbeddedResource Include="frmconcom.resx">
+      <DependentUpon>frmconcom.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="panaroDataSet.xsc">
       <DependentUpon>panaroDataSet.xsd</DependentUpon>

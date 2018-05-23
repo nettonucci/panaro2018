@@ -108,5 +108,10 @@ namespace Panaro
 
             }
         }
+
+        private void dgvedcli_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

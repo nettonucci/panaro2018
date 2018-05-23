@@ -29,9 +29,7 @@ namespace Panaro
 
         private void consultarComandaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmconsulta frmcon = new frmconsulta();
-            frmcon.MdiParent = this;
-            frmcon.Show();
+            
         }
 
         private void sOBREToolStripMenuItem_Click(object sender, EventArgs e)

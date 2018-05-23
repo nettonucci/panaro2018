@@ -146,5 +146,53 @@ namespace Panaro.Camadas.DAL
             }
 
         }
+
+        public void Update(Model.Cliente cliente)
+        {
+            SqlConnection conexao = new SqlConnection(strcon);
+            string sql = "Update clientes set nome=@nome, endereco=@endereco, numero=@numero, bairro=@bairro, telefone=@telefone, celular=@celular where id=@id;";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@nome", cliente.nome);
+            cmd.Parameters.AddWithValue("@endereco", cliente.endereco);
+            cmd.Parameters.AddWithValue("@numero", cliente.numero);
+            cmd.Parameters.AddWithValue("@bairro", cliente.bairro);
+            cmd.Parameters.AddWithValue("@telefone", cliente.telefone);
+            cmd.Parameters.AddWithValue("@celular", cliente.celular);
+            cmd.Parameters.AddWithValue("@id", cliente.id);
+            conexao.Open();
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                Console.WriteLine("Erro na atualizacao de clientes");
+            }  
+            finally
+            {
+                conexao.Close();  
+            }
+        }
+
+        public void Delete (Model.Cliente cliente)
+        {
+            SqlConnection conexao = new SqlConnection(strcon);
+            string sql = "Delete from clientes where id=@id;";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@id", cliente.id);
+            conexao.Open();
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                Console.WriteLine("Deu Erro na remocao de cliente");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
     }
 }

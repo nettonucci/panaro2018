@@ -88,5 +88,33 @@ namespace Panaro
             dgvClientes.DataSource = lstCliente;
 
         }
+
+        private void dgvClientes_DoubleClick(object sender, EventArgs e)
+        {
+            if (dgvClientes.SelectedRows.Count > 0)
+            {
+                txtboxcli.Text = dgvClientes.SelectedRows[0].Cells["nome"].Value.ToString();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (DialogResult.Yes == MessageBox.Show("Tem certeza que deseja abrir esta comanda?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+            {
+                txtboxcli.Focus();
+                Camadas.Model.Comanda comanda = new Camadas.Model.Comanda();
+                Camadas.DAL.Comanda dalCom = new Camadas.DAL.Comanda();
+                comanda.cliente = txtboxcli.Text;
+                comanda.status = "1";
+
+                dalCom.Insert(comanda);
+
+                frmedcom frmcon = new frmedcom();
+                frmcon.Show();
+                this.Close();
+
+
+            }
+        }
     }
 }

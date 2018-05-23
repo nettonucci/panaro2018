@@ -81,6 +81,8 @@ namespace Panaro
 
         private void frmnewfor_Load(object sender, EventArgs e)
         {
+            // TODO: esta linha de código carrega dados na tabela 'panaroDataSet6.tipo'. Você pode movê-la ou removê-la conforme necessário.
+            this.tipoTableAdapter.Fill(this.panaroDataSet6.tipo);
             // TODO: esta linha de código carrega dados na tabela 'panaroDataSet2.tipos'. Você pode movê-la ou removê-la conforme necessário.
             this.tiposTableAdapter2.Fill(this.panaroDataSet2.tipos);
             // TODO: esta linha de código carrega dados na tabela 'panaroDataSet1.tipos'. Você pode movê-la ou removê-la conforme necessário.

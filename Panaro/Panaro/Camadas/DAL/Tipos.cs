@@ -15,7 +15,7 @@ namespace Panaro.Camadas.DAL
         public void Insert(Model.Tipos tipos)
         {
             SqlConnection conexao = new SqlConnection(strcon);
-            string sql = "Insert into tipos values ";
+            string sql = "Insert into tipo values ";
             sql = sql + " (@descricao);";
             SqlCommand cmd = new SqlCommand(sql, conexao);
             cmd.Parameters.AddWithValue("@descricao", tipos.descricao);

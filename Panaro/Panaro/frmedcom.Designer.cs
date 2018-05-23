@@ -1,6 +1,6 @@
 ﻿namespace Panaro
 {
-    partial class frmconsulta
+    partial class frmedcom
     {
         /// <summary>
         /// Required designer variable.
@@ -34,30 +34,30 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panaroDataSet4 = new Panaro.panaroDataSet4();
             this.Produtos_Adc = new System.Windows.Forms.ListBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.panaroDataSet5 = new Panaro.panaroDataSet5();
             this.Prod_Sel_Remov = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panaroDataSet4 = new Panaro.panaroDataSet4();
-            this.tiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter = new Panaro.panaroDataSet4TableAdapters.tiposTableAdapter();
-            this.panaroDataSet5 = new Panaro.panaroDataSet5();
-            this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter1 = new Panaro.panaroDataSet5TableAdapters.tiposTableAdapter();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(10, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 0;
@@ -66,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(165, 9);
+            this.label2.Location = new System.Drawing.Point(101, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 1;
@@ -92,7 +92,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DataSource = this.tiposBindingSource;
+            this.comboBox1.DataSource = this.tiposBindingSource1;
             this.comboBox1.DisplayMember = "descricao";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(47, 87);
@@ -100,6 +100,16 @@
             this.comboBox1.Size = new System.Drawing.Size(172, 21);
             this.comboBox1.TabIndex = 4;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // tiposBindingSource
+            // 
+            this.tiposBindingSource.DataMember = "tipos";
+            this.tiposBindingSource.DataSource = this.panaroDataSet4;
+            // 
+            // panaroDataSet4
+            // 
+            this.panaroDataSet4.DataSetName = "panaroDataSet4";
+            this.panaroDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Produtos_Adc
             // 
@@ -118,6 +128,16 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(172, 21);
             this.comboBox2.TabIndex = 6;
+            // 
+            // tiposBindingSource1
+            // 
+            this.tiposBindingSource1.DataMember = "tipos";
+            this.tiposBindingSource1.DataSource = this.panaroDataSet5;
+            // 
+            // panaroDataSet5
+            // 
+            this.panaroDataSet5.DataSetName = "panaroDataSet5";
+            this.panaroDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Prod_Sel_Remov
             // 
@@ -149,7 +169,8 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(209, 6);
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(145, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(410, 20);
             this.textBox1.TabIndex = 10;
@@ -157,34 +178,14 @@
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(47, 6);
+            this.textBox2.Location = new System.Drawing.Point(45, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(50, 20);
             this.textBox2.TabIndex = 11;
             // 
-            // panaroDataSet4
-            // 
-            this.panaroDataSet4.DataSetName = "panaroDataSet4";
-            this.panaroDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tiposBindingSource
-            // 
-            this.tiposBindingSource.DataMember = "tipos";
-            this.tiposBindingSource.DataSource = this.panaroDataSet4;
-            // 
             // tiposTableAdapter
             // 
             this.tiposTableAdapter.ClearBeforeFill = true;
-            // 
-            // panaroDataSet5
-            // 
-            this.panaroDataSet5.DataSetName = "panaroDataSet5";
-            this.panaroDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tiposBindingSource1
-            // 
-            this.tiposBindingSource1.DataMember = "tipos";
-            this.tiposBindingSource1.DataSource = this.panaroDataSet5;
             // 
             // tiposTableAdapter1
             // 
@@ -221,12 +222,12 @@
             this.Controls.Add(this.label1);
             this.Name = "frmconsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Consultar comanda";
+            this.Text = "Editar comanda";
             this.Load += new System.EventHandler(this.frmconsulta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

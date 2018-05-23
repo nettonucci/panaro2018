@@ -10,7 +10,8 @@ namespace Panaro.Camadas.DAL
     {
         public static string getConexao()
         {
-            return @"Data Source=.\sqlexpress;Initial Catalog=panaro;Integrated Security=True";
+            return @"Data Source =.\SQLEXPRESS; Initial Catalog = panaro; Integrated Security = True";
+                     
         }
     }
 }

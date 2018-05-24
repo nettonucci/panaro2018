@@ -51,11 +51,13 @@
     <Compile Include="Camadas\DAL\Comanda.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />
     <Compile Include="Camadas\DAL\Fornecedor.cs" />
+    <Compile Include="Camadas\DAL\Produtos.cs" />
     <Compile Include="Camadas\DAL\Tipos.cs" />
     <Compile Include="Camadas\DAL\Usuarios.cs" />
     <Compile Include="Camadas\Model\Cliente.cs" />
     <Compile Include="Camadas\Model\Comanda.cs" />
     <Compile Include="Camadas\Model\Fornecedor.cs" />
+    <Compile Include="Camadas\Model\Produtos.cs" />
     <Compile Include="Camadas\Model\Tipos.cs" />
     <Compile Include="Camadas\Model\Usuarios.cs" />
     <Compile Include="frmatest.cs">

@@ -43,7 +43,6 @@ namespace Panaro
             Camadas.Model.Fornecedor fornecedor = new Camadas.Model.Fornecedor();
             Camadas.DAL.Fornecedor dalFor = new Camadas.DAL.Fornecedor();
             txtboxnome.Focus();
-            //rdbtnbebidas.Select();
             fornecedor.nome = txtboxnome.Text;
             fornecedor.marca = txtboxmarca.Text;
             fornecedor.endereco = txtboxendereco.Text;
@@ -60,23 +59,6 @@ namespace Panaro
             txtboxnumero.Text = (" ");
             txtboxcelular.Text = (" ");
 
-            //rdbtnbebidas.Select();
-            //if (rdbtnbebidas.Checked)
-            //{
-            //    fornecedor.produto = "bebidas";
-            //}
-            //else if (rdbtnespetinhos.Checked)
-            //{
-            //    fornecedor.produto = "espetinhos";
-            //}
-            //else if (rdbtndoces.Checked)
-            //{
-            //    fornecedor.produto = "doces";
-            //}
-            //else if (rdbtnoutros.Checked)
-            //{
-            //    fornecedor.produto = "outros";
-            //}
         }
 
         private void frmnewfor_Load(object sender, EventArgs e)

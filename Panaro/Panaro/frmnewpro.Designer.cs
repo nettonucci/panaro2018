@@ -35,9 +35,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtboxqtd = new System.Windows.Forms.TextBox();
+            this.txtboxvalor = new System.Windows.Forms.TextBox();
+            this.txtboxdesc = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panaroDataSet = new Panaro.panaroDataSet();
@@ -50,7 +50,7 @@
             this.panaroDataSet3 = new Panaro.panaroDataSet3();
             this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter1 = new Panaro.panaroDataSet3TableAdapters.tiposTableAdapter();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbprod = new System.Windows.Forms.ComboBox();
             this.tipoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panaroDataSet7 = new Panaro.panaroDataSet7();
             this.tipoTableAdapter = new Panaro.panaroDataSet7TableAdapters.tipoTableAdapter();
@@ -109,26 +109,26 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Quantidade:";
             // 
-            // textBox1
+            // txtboxqtd
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 137);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(67, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtboxqtd.Location = new System.Drawing.Point(83, 137);
+            this.txtboxqtd.Name = "txtboxqtd";
+            this.txtboxqtd.Size = new System.Drawing.Size(67, 20);
+            this.txtboxqtd.TabIndex = 3;
             // 
-            // textBox2
+            // txtboxvalor
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtboxvalor.Location = new System.Drawing.Point(83, 111);
+            this.txtboxvalor.Name = "txtboxvalor";
+            this.txtboxvalor.Size = new System.Drawing.Size(150, 20);
+            this.txtboxvalor.TabIndex = 2;
             // 
-            // textBox3
+            // txtboxdesc
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 85);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(360, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtboxdesc.Location = new System.Drawing.Point(83, 85);
+            this.txtboxdesc.Name = "txtboxdesc";
+            this.txtboxdesc.Size = new System.Drawing.Size(360, 20);
+            this.txtboxdesc.TabIndex = 1;
             // 
             // textBox5
             // 
@@ -166,7 +166,7 @@
             this.button1.Location = new System.Drawing.Point(140, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -176,16 +176,17 @@
             this.button2.Location = new System.Drawing.Point(221, 195);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 14;
+            this.button2.TabIndex = 5;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(302, 195);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 15;
+            this.button3.TabIndex = 6;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -195,7 +196,7 @@
             this.button4.Location = new System.Drawing.Point(210, 57);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 16;
+            this.button4.TabIndex = 7;
             this.button4.Text = "Novo Tipo";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -214,16 +215,16 @@
             // 
             this.tiposTableAdapter1.ClearBeforeFill = true;
             // 
-            // comboBox1
+            // cbbprod
             // 
-            this.comboBox1.DataSource = this.tipoBindingSource;
-            this.comboBox1.DisplayMember = "descricao";
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(83, 59);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 17;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
+            this.cbbprod.DataSource = this.tipoBindingSource;
+            this.cbbprod.DisplayMember = "descricao";
+            this.cbbprod.FormattingEnabled = true;
+            this.cbbprod.Location = new System.Drawing.Point(83, 59);
+            this.cbbprod.Name = "cbbprod";
+            this.cbbprod.Size = new System.Drawing.Size(121, 21);
+            this.cbbprod.TabIndex = 17;
+            this.cbbprod.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
             // tipoBindingSource
             // 
@@ -245,16 +246,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 242);
             this.ControlBox = false;
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbbprod);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtboxdesc);
+            this.Controls.Add(this.txtboxvalor);
+            this.Controls.Add(this.txtboxqtd);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -284,9 +285,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtboxqtd;
+        private System.Windows.Forms.TextBox txtboxvalor;
+        private System.Windows.Forms.TextBox txtboxdesc;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private panaroDataSet panaroDataSet;
@@ -299,7 +300,7 @@
         private panaroDataSet3 panaroDataSet3;
         private System.Windows.Forms.BindingSource tiposBindingSource1;
         private panaroDataSet3TableAdapters.tiposTableAdapter tiposTableAdapter1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbbprod;
         private panaroDataSet7 panaroDataSet7;
         private System.Windows.Forms.BindingSource tipoBindingSource;
         private panaroDataSet7TableAdapters.tipoTableAdapter tipoTableAdapter;

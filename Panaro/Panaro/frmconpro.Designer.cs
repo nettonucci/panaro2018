@@ -110,7 +110,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(240, 20);
             this.textBox3.TabIndex = 7;
-            this.textBox3.Visible = false;
             // 
             // textBox4
             // 
@@ -118,7 +117,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(91, 20);
             this.textBox4.TabIndex = 8;
-            this.textBox4.Visible = false;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
@@ -127,20 +125,19 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 9;
-            this.textBox5.Visible = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(328, 58);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(137, 119);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // Limpar
             // 
-            this.Limpar.Location = new System.Drawing.Point(113, 240);
+            this.Limpar.Location = new System.Drawing.Point(113, 223);
             this.Limpar.Name = "Limpar";
             this.Limpar.Size = new System.Drawing.Size(75, 23);
             this.Limpar.TabIndex = 11;
@@ -149,7 +146,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(247, 240);
+            this.button2.Location = new System.Drawing.Point(247, 223);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 12;
@@ -160,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 288);
+            this.ClientSize = new System.Drawing.Size(467, 264);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.pictureBox1);
@@ -175,7 +172,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmconpro";
-            this.Text = "Consulta de produtos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Consulta de Produtos";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -51,16 +51,16 @@
             this.tiposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tiposTableAdapter1 = new Panaro.panaroDataSet3TableAdapters.tiposTableAdapter();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panaroDataSet7 = new Panaro.panaroDataSet7();
             this.tipoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panaroDataSet7 = new Panaro.panaroDataSet7();
             this.tipoTableAdapter = new Panaro.panaroDataSet7TableAdapters.tipoTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet7)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -141,7 +141,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(477, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(459, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(203, 206);
             this.pictureBox1.TabIndex = 11;
@@ -225,15 +225,15 @@
             this.comboBox1.TabIndex = 17;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
-            // panaroDataSet7
-            // 
-            this.panaroDataSet7.DataSetName = "panaroDataSet7";
-            this.panaroDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // tipoBindingSource
             // 
             this.tipoBindingSource.DataMember = "tipo";
             this.tipoBindingSource.DataSource = this.panaroDataSet7;
+            // 
+            // panaroDataSet7
+            // 
+            this.panaroDataSet7.DataSetName = "panaroDataSet7";
+            this.panaroDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tipoTableAdapter
             // 
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 242);
+            this.ClientSize = new System.Drawing.Size(671, 242);
             this.ControlBox = false;
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button4);
@@ -270,8 +270,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panaroDataSet7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

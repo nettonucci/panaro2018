@@ -99,3 +99,29 @@ C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcli.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcom.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconcom.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\bin\Debug\Panaro.exe.config
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.exe
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\bin\Debug\Panaro.exe
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\bin\Debug\Panaro.pdb
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csprojResolveAssemblyReference.cache
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.fmrinicio.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmatest.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcli.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewcom.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconpro.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcom.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmcontpag.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmcontrec.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmlogin.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewcli.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewfor.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewpro.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmprofalt.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmrel.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmsobre.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewuser.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.Properties.Resources.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconcom.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.GenerateResource.Cache

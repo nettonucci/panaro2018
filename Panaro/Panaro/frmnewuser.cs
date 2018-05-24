@@ -36,7 +36,7 @@ namespace Panaro
             txtboxnome.Focus();
             txtboxnome.Text = (" ");
             txtboxuser.Text = (" ");
-            txtboxsenha.Text = (" ");
+            txtboxsenha.Text = ("");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,6 +45,11 @@ namespace Panaro
             txtboxnome.Text = (" ");
             txtboxuser.Text = (" ");
             txtboxsenha.Text = ("");
+        }
+
+        private void frmnewuser_Load(object sender, EventArgs e)
+        {
+            txtboxnome.Focus();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Panaro.Camadas.DAL
         {
             List<Model.Usuarios> lstUsuarios = new List<Model.Usuarios>();
             SqlConnection conexao = new SqlConnection(strcon);
-            string sql = "select * from usuario;";
+            string sql = "select * from usuarios;";
             SqlCommand cmd = new SqlCommand(sql, conexao);
             conexao.Open();
             try
@@ -47,7 +47,7 @@ namespace Panaro.Camadas.DAL
         public void Insert(Model.Usuarios usuarios)
         {
             SqlConnection conexao = new SqlConnection(strcon);
-            string sql = "Insert into usuario values ";
+            string sql = "Insert into usuarios values ";
             sql = sql + " (@nome, @usuario, @senha);";
             SqlCommand cmd = new SqlCommand(sql, conexao);
             cmd.Parameters.AddWithValue("@nome", usuarios.nome);
@@ -67,6 +67,40 @@ namespace Panaro.Camadas.DAL
                 conexao.Close();
             }
 
+        }
+
+        public List<Model.Usuarios> Login(string usuario, string senha)
+        {
+            List<Model.Usuarios> lstUsuarios = new List<Model.Usuarios>();
+            SqlConnection conexao = new SqlConnection(strcon);
+            string sql = "select * from usuarios where usuario=@usuario and senha=@senha;";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@usuario", usuario);
+            cmd.Parameters.AddWithValue("@senha", senha);
+            conexao.Open();
+            try
+            {
+                SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                if (reader.Read())
+                {
+                    Model.Usuarios usuarios = new Model.Usuarios();
+                    usuarios.id = Convert.ToInt32(reader["id"]);
+                    usuarios.nome = reader["nome"].ToString();
+                    usuarios.usuario = reader["usuario"].ToString();
+                    usuarios.senha = reader["senha"].ToString();
+                    lstUsuarios.Add(usuarios);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Erro - Usuario nao localizados");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return lstUsuarios;
         }
     }
 }

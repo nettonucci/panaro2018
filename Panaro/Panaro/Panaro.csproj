@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camadas\BLL\Cliente.cs" />
+    <Compile Include="Camadas\BLL\Usuarios.cs" />
     <Compile Include="Camadas\DAL\Cliente.cs" />
     <Compile Include="Camadas\DAL\Comanda.cs" />
     <Compile Include="Camadas\DAL\Conexao.cs" />

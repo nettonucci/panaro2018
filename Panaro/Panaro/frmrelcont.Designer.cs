@@ -1,6 +1,6 @@
 ﻿namespace Panaro
 {
-    partial class frmrel
+    partial class frmrelcont
     {
         /// <summary>
         /// Required designer variable.

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Panaro
 {
-    public partial class frmrel : Form
+    public partial class frmrelcont : Form
     {
-        public frmrel()
+        public frmrelcont()
         {
             InitializeComponent();
         }

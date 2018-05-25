@@ -129,5 +129,13 @@ namespace Panaro
             frmrelc.MdiParent = this;
             frmrelc.Show();
         }
+
+        private void contasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmrelcont frmrelc = new frmrelcont();
+            frmrelc.MdiParent = this;
+            frmrelc.Show();
+        }
     }
 }
+''

@@ -64,7 +64,7 @@ namespace Panaro
                 produto.quantidade = txtboxqtd.Text;
 
                 dalPro.Insert(produto);
-                MessageBox.Show("Produto cadastrado com sucesso", "Cadastro de cliente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Produto cadastrado com sucesso", "Cadastro de produto", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtboxdesc.Focus();
                 txtboxdesc.Text = ("");
                 txtboxvalor.Text = ("");

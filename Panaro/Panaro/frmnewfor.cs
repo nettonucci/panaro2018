@@ -40,24 +40,28 @@ namespace Panaro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Camadas.Model.Fornecedor fornecedor = new Camadas.Model.Fornecedor();
-            Camadas.DAL.Fornecedor dalFor = new Camadas.DAL.Fornecedor();
-            txtboxnome.Focus();
-            fornecedor.nome = txtboxnome.Text;
-            fornecedor.marca = txtboxmarca.Text;
-            fornecedor.endereco = txtboxendereco.Text;
-            fornecedor.numero = txtboxnumero.Text;
-            fornecedor.produto = cbboxtipos.Text;
-            fornecedor.celular = txtboxcelular.Text;
+            if (DialogResult.Yes == MessageBox.Show("Tem certeza que deseja cadastrar o fornecedor?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+            {
 
-            dalFor.Insert(fornecedor);
-            MessageBox.Show("Fornecedor cadastrado com sucesso", "Cadastro de Fornecedor", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            txtboxnome.Focus();
-            txtboxnome.Text = (" ");
-            txtboxmarca.Text = (" ");
-            txtboxendereco.Text = (" ");
-            txtboxnumero.Text = (" ");
-            txtboxcelular.Text = (" ");
+                Camadas.Model.Fornecedor fornecedor = new Camadas.Model.Fornecedor();
+                Camadas.DAL.Fornecedor dalFor = new Camadas.DAL.Fornecedor();
+                txtboxnome.Focus();
+                fornecedor.nome = txtboxnome.Text;
+                fornecedor.marca = txtboxmarca.Text;
+                fornecedor.endereco = txtboxendereco.Text;
+                fornecedor.numero = txtboxnumero.Text;
+                fornecedor.produto = cbboxtipos.Text;
+                fornecedor.celular = txtboxcelular.Text;
+
+                dalFor.Insert(fornecedor);
+                MessageBox.Show("Fornecedor cadastrado com sucesso", "Cadastro de Fornecedor", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtboxnome.Focus();
+                txtboxnome.Text = (" ");
+                txtboxmarca.Text = (" ");
+                txtboxendereco.Text = (" ");
+                txtboxnumero.Text = (" ");
+                txtboxcelular.Text = (" ");
+            }
 
         }
 

@@ -36,10 +36,9 @@
             this.txtboxid = new System.Windows.Forms.TextBox();
             this.txtboxprod = new System.Windows.Forms.TextBox();
             this.txtboxqtd = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtboxqtda = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.pnlpesquisa = new System.Windows.Forms.Panel();
             this.btnbuscar = new System.Windows.Forms.Button();
@@ -50,6 +49,9 @@
             this.rdbcod = new System.Windows.Forms.RadioButton();
             this.rdbtodos = new System.Windows.Forms.RadioButton();
             this.dgvprod = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
+            this.txtboxvalor = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlpesquisa.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -86,7 +88,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 141);
+            this.label4.Location = new System.Drawing.Point(44, 175);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 13);
             this.label4.TabIndex = 3;
@@ -116,12 +118,12 @@
             this.txtboxqtd.Size = new System.Drawing.Size(100, 20);
             this.txtboxqtd.TabIndex = 6;
             // 
-            // textBox4
+            // txtboxqtda
             // 
-            this.textBox4.Location = new System.Drawing.Point(142, 138);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.txtboxqtda.Location = new System.Drawing.Point(142, 172);
+            this.txtboxqtda.Name = "txtboxqtda";
+            this.txtboxqtda.Size = new System.Drawing.Size(100, 20);
+            this.txtboxqtda.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -134,25 +136,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 204);
+            this.button1.Location = new System.Drawing.Point(11, 233);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 9;
             this.button1.Text = "Atualizar";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(167, 204);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Limpar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(312, 204);
+            this.button3.Location = new System.Drawing.Point(11, 430);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 11;
@@ -180,6 +174,7 @@
             this.btnbuscar.TabIndex = 3;
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // txtPesquisa
             // 
@@ -216,6 +211,7 @@
             this.rdbnome.TabIndex = 2;
             this.rdbnome.Text = "Nome";
             this.rdbnome.UseVisualStyleBackColor = true;
+            this.rdbnome.CheckedChanged += new System.EventHandler(this.rdbnome_CheckedChanged);
             // 
             // rdbcod
             // 
@@ -226,6 +222,7 @@
             this.rdbcod.TabIndex = 1;
             this.rdbcod.Text = "Codigo";
             this.rdbcod.UseVisualStyleBackColor = true;
+            this.rdbcod.CheckedChanged += new System.EventHandler(this.rdbcod_CheckedChanged);
             // 
             // rdbtodos
             // 
@@ -238,6 +235,7 @@
             this.rdbtodos.TabStop = true;
             this.rdbtodos.Text = "Todos";
             this.rdbtodos.UseVisualStyleBackColor = true;
+            this.rdbtodos.CheckedChanged += new System.EventHandler(this.rdbtodos_CheckedChanged);
             // 
             // dgvprod
             // 
@@ -248,19 +246,47 @@
             this.dgvprod.TabIndex = 13;
             this.dgvprod.DoubleClick += new System.EventHandler(this.dgvprod_DoubleClick);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(11, 262);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Excluir";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // txtboxvalor
+            // 
+            this.txtboxvalor.Location = new System.Drawing.Point(142, 130);
+            this.txtboxvalor.Name = "txtboxvalor";
+            this.txtboxvalor.Size = new System.Drawing.Size(100, 20);
+            this.txtboxvalor.TabIndex = 16;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(89, 133);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Valor:";
+            // 
             // frmatest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(722, 465);
             this.ControlBox = false;
+            this.Controls.Add(this.txtboxvalor);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.dgvprod);
             this.Controls.Add(this.pnlpesquisa);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtboxqtda);
             this.Controls.Add(this.txtboxqtd);
             this.Controls.Add(this.txtboxprod);
             this.Controls.Add(this.txtboxid);
@@ -293,10 +319,9 @@
         private System.Windows.Forms.TextBox txtboxid;
         private System.Windows.Forms.TextBox txtboxprod;
         private System.Windows.Forms.TextBox txtboxqtd;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtboxqtda;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel pnlpesquisa;
         private System.Windows.Forms.Button btnbuscar;
@@ -307,5 +332,8 @@
         private System.Windows.Forms.RadioButton rdbcod;
         private System.Windows.Forms.RadioButton rdbtodos;
         private System.Windows.Forms.DataGridView dgvprod;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox txtboxvalor;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -88,7 +88,6 @@ C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewfor.resou
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewpro.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewtip.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmprofalt.resources
-C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmrel.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmsobre.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewuser.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.Properties.Resources.resources
@@ -125,3 +124,4 @@ C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\o
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconcom.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.GenerateResource.Cache
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmrelcont.resources
+C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewconta.resources

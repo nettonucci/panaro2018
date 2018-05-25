@@ -100,9 +100,9 @@ namespace Panaro
 
         private void contasAPagarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmcontpag frmpag = new frmcontpag();
-            frmpag.MdiParent = this;
-            frmpag.Show();
+            frmnewconta frmconta = new frmnewconta();
+            frmconta.MdiParent = this;
+            frmconta.Show();
         }
 
         private void contasAreceberToolStripMenuItem_Click(object sender, EventArgs e)
@@ -132,10 +132,7 @@ namespace Panaro
 
         private void contasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmrelcont frmrelc = new frmrelcont();
-            frmrelc.MdiParent = this;
-            frmrelc.Show();
+
         }
     }
 }
-''

@@ -115,6 +115,12 @@
     <Compile Include="frmnewcli.Designer.cs">
       <DependentUpon>frmnewcli.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmnewconta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewconta.Designer.cs">
+      <DependentUpon>frmnewconta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmnewfor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,12 +144,6 @@
     </Compile>
     <Compile Include="frmprofalt.Designer.cs">
       <DependentUpon>frmprofalt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmrelcont.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmrelcont.Designer.cs">
-      <DependentUpon>frmrelcont.cs</DependentUpon>
     </Compile>
     <Compile Include="frmrelcli.cs">
       <SubType>Form</SubType>
@@ -252,6 +252,9 @@
     <EmbeddedResource Include="frmnewcli.resx">
       <DependentUpon>frmnewcli.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmnewconta.resx">
+      <DependentUpon>frmnewconta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmnewfor.resx">
       <DependentUpon>frmnewfor.cs</DependentUpon>
     </EmbeddedResource>
@@ -263,9 +266,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmprofalt.resx">
       <DependentUpon>frmprofalt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmrelcont.resx">
-      <DependentUpon>frmrelcont.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmsobre.resx">
       <DependentUpon>frmsobre.cs</DependentUpon>

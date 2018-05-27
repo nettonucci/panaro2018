@@ -40,6 +40,7 @@ namespace Panaro
                 cliente.bairro = txtboxbairro.Text;
                 cliente.telefone = txtboxtel.Text;
                 cliente.celular = txtboxcel.Text;
+                cliente.datacad = DateTime.Now;
 
                 dalCli.Insert(cliente);
                 MessageBox.Show("Cliente cadastrado com sucesso", "Cadastro de cliente", MessageBoxButtons.OK, MessageBoxIcon.Information);

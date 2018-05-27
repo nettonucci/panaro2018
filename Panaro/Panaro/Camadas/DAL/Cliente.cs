@@ -123,7 +123,7 @@ namespace Panaro.Camadas.DAL
         {
             SqlConnection conexao = new SqlConnection(strcon);
             string sql = "Insert into clientes values ";
-            sql = sql + " (@nome, @endereco, @numero, @bairro, @telefone, @celular);";
+            sql = sql + " (@nome, @endereco, @numero, @bairro, @telefone, @celular, @datacad);";
             SqlCommand cmd = new SqlCommand(sql, conexao);
             cmd.Parameters.AddWithValue("@nome", cliente.nome);
             cmd.Parameters.AddWithValue("@endereco", cliente.endereco);
@@ -131,6 +131,7 @@ namespace Panaro.Camadas.DAL
             cmd.Parameters.AddWithValue("@bairro", cliente.bairro);
             cmd.Parameters.AddWithValue("@telefone", cliente.telefone);
             cmd.Parameters.AddWithValue("@celular", cliente.celular);
+            cmd.Parameters.AddWithValue("@datacad", cliente.datacad);
             conexao.Open();
             try
             {

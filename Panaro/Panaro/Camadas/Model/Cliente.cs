@@ -15,5 +15,6 @@ namespace Panaro.Camadas.Model
         public string bairro { get; set; }
         public string telefone { get; set; }
         public string celular { get; set; }
+        public DateTime datacad { get; set; }
     }
 }

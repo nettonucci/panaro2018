@@ -103,7 +103,6 @@ C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\o
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.pdb
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\bin\Debug\Panaro.exe
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\bin\Debug\Panaro.pdb
-C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csprojResolveAssemblyReference.cache
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.fmrinicio.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmatest.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmedcli.resources
@@ -123,5 +122,7 @@ C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\o
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.Properties.Resources.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmconcom.resources
 C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.GenerateResource.Cache
-C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmrelcont.resources
 C:\Users\Netto\Desktop\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewconta.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csprojAssemblyReference.cache
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.frmnewconta.resources
+C:\Users\VICCIOLI\Desktop\3BCC\Engenharia de Software\panaro2018\Panaro\Panaro\obj\Debug\Panaro.csproj.CoreCompileInputs.cache

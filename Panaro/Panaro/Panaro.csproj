@@ -235,6 +235,12 @@
     <Compile Include="frmconcom.Designer.cs">
       <DependentUpon>frmconcom.cs</DependentUpon>
     </Compile>
+    <Compile Include="teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teste.Designer.cs">
+      <DependentUpon>teste.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrystalReportCliente.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportCliente.cs</LastGenOutput>
@@ -304,6 +310,9 @@
     </Compile>
     <EmbeddedResource Include="frmconcom.resx">
       <DependentUpon>frmconcom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teste.resx">
+      <DependentUpon>teste.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="panaroDataSet.xsc">
       <DependentUpon>panaroDataSet.xsd</DependentUpon>

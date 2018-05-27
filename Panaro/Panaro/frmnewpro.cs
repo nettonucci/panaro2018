@@ -23,9 +23,9 @@ namespace Panaro
             // TODO: esta linha de código carrega dados na tabela 'panaroDataSet7.tipo'. Você pode movê-la ou removê-la conforme necessário.
             this.tipoTableAdapter.Fill(this.panaroDataSet7.tipo);
             // TODO: esta linha de código carrega dados na tabela 'panaroDataSet3.tipos'. Você pode movê-la ou removê-la conforme necessário.
-            this.tiposTableAdapter1.Fill(this.panaroDataSet3.tipos);
+            //this.tiposTableAdapter1.Fill(this.panaroDataSet3.tipos);
             // TODO: esta linha de código carrega dados na tabela 'panaroDataSet.tipos'. Você pode movê-la ou removê-la conforme necessário.
-            this.tiposTableAdapter.Fill(this.panaroDataSet.tipos);
+            //this.tiposTableAdapter.Fill(this.panaroDataSet.tipos);
 
         }
 
